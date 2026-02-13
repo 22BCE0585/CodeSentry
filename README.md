@@ -83,7 +83,7 @@ mvn -version
 ## Installation
 
 Clone the repository:
-
+https://github.com/22BCE0585/CodeSentry.git
 
 
 Build the project:
