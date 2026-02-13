@@ -62,36 +62,8 @@ Each defect includes:
 
 ## Project Structure
 
-CodeSentry/
-│
-├── src/main/java/com/staticanalysis/
-│ ├── analyzer/
-│ │ ├── SmellDetector.java
-│ │ ├── DeadCodeDetector.java
-│ │ ├── SecurityAnalyzer.java
-│ │
-│ ├── metrics/
-│ │ └── ComplexityAnalyzer.java
-│ │
-│ ├── model/
-│ │ ├── Defect.java
-│ │ └── DefectCollector.java
-│ │
-│ ├── parser/
-│ │ ├── CodeParser.java
-│ │ └── FileScanner.java
-│ │
-│ ├── report/
-│ │ └── ReportGenerator.java
-│ │
-│ └── Main.java
-│
-├── test-input/
-│ └── EnterpriseUserService.java
-│
-├── report.json
-├── report.html
-└── pom.xml
+<img width="2185" height="390" alt="image" src="https://github.com/user-attachments/assets/e6399e20-446e-46f6-a5c8-2634d9fadabf" />
+
 
 
 ---
