@@ -54,24 +54,8 @@ Each defect includes:
 
 ## Architecture Overview
 
-Target Java Source Code
-↓
-JavaParser (AST Construction)
-↓
-Analyzers
-├── SecurityAnalyzer
-├── SmellDetector
-├── DeadCodeDetector
-├── ComplexityAnalyzer
-↓
-Defect Model
-↓
-DefectCollector
-↓
-ReportGenerator
-├── Console Report
-├── JSON Report
-└── HTML Dashboard
+<img width="721" height="633" alt="image" src="https://github.com/user-attachments/assets/cf53ffc1-9ad5-4ff2-8877-0a4d5b2d0c80" />
+
 
 
 ---
