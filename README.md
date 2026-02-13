@@ -18,7 +18,7 @@ The tool classifies defects by severity (CRITICAL / MAJOR / MINOR) and generates
 - Large classes
 - Empty catch blocks
 
-#### ☠ Dead Code Detection
+#### Dead Code Detection
 - Unused variables
 - Unreachable code
 
