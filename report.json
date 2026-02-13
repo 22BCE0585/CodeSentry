@@ -1,0 +1,85 @@
+[ {
+  "type" : "Code Smell",
+  "message" : "Empty catch block detected",
+  "severity" : "MAJOR",
+  "fileName" : "EnterpriseUserService.java",
+  "lineNumber" : 60
+}, {
+  "type" : "Code Smell",
+  "message" : "Too many parameters in method -> getUsers",
+  "severity" : "MINOR",
+  "fileName" : "EnterpriseUserService.java",
+  "lineNumber" : 12
+}, {
+  "type" : "Code Smell",
+  "message" : "Long method detected -> getUsers",
+  "severity" : "MAJOR",
+  "fileName" : "EnterpriseUserService.java",
+  "lineNumber" : 12
+}, {
+  "type" : "Code Smell",
+  "message" : "Too many parameters in method -> authenticate",
+  "severity" : "MINOR",
+  "fileName" : "EnterpriseUserService.java",
+  "lineNumber" : 83
+}, {
+  "type" : "Dead Code",
+  "message" : "Unused variable -> unusedCounter in method -> getUsers",
+  "severity" : "MINOR",
+  "fileName" : "EnterpriseUserService.java",
+  "lineNumber" : 12
+}, {
+  "type" : "Security",
+  "message" : "Hardcoded password -> password",
+  "severity" : "CRITICAL",
+  "fileName" : "EnterpriseUserService.java",
+  "lineNumber" : 10
+}, {
+  "type" : "Security",
+  "message" : "Possible SQL Injection -> \"SELECT * FROM users WHERE role=\" + roleId",
+  "severity" : "CRITICAL",
+  "fileName" : "EnterpriseUserService.java",
+  "lineNumber" : 23
+}, {
+  "type" : "Security",
+  "message" : "System.exit() usage detected",
+  "severity" : "MAJOR",
+  "fileName" : "EnterpriseUserService.java",
+  "lineNumber" : 79
+}, {
+  "type" : "Code Smell",
+  "message" : "Too many parameters in method -> testMethod",
+  "severity" : "MINOR",
+  "fileName" : "SampleTest.java",
+  "lineNumber" : 6
+}, {
+  "type" : "Dead Code",
+  "message" : "Unused variable -> query in method -> testMethod",
+  "severity" : "MINOR",
+  "fileName" : "SampleTest.java",
+  "lineNumber" : 6
+}, {
+  "type" : "Dead Code",
+  "message" : "Unused variable -> unusedVar in method -> testMethod",
+  "severity" : "MINOR",
+  "fileName" : "SampleTest.java",
+  "lineNumber" : 6
+}, {
+  "type" : "Security",
+  "message" : "Hardcoded password -> password",
+  "severity" : "CRITICAL",
+  "fileName" : "SampleTest.java",
+  "lineNumber" : 4
+}, {
+  "type" : "Security",
+  "message" : "Possible SQL Injection -> \"SELECT * FROM users WHERE id=\" + a",
+  "severity" : "CRITICAL",
+  "fileName" : "SampleTest.java",
+  "lineNumber" : 10
+}, {
+  "type" : "Security",
+  "message" : "System.exit() usage detected",
+  "severity" : "MAJOR",
+  "fileName" : "SampleTest.java",
+  "lineNumber" : 16
+} ]

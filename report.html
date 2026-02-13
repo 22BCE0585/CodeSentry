@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Static Analysis Report</title>
+<style>
+body { font-family: Arial; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid black; padding: 8px; text-align: left; }
+th { background-color: #f2f2f2; }
+.CRITICAL { background-color: #ffcccc; }
+.MAJOR { background-color: #ffe0b3; }
+.MINOR { background-color: #ffffcc; }
+</style>
+</head>
+<body>
+<h1>Static Code Analysis Report</h1>
+<table>
+<tr><th>Severity</th><th>Type</th><th>Message</th></tr>
+<tr class='MAJOR'>
+<td>MAJOR</td>
+<td>Code Smell</td>
+<td>Empty catch block detected</td>
+</tr>
+<tr class='MINOR'>
+<td>MINOR</td>
+<td>Code Smell</td>
+<td>Too many parameters in method -> getUsers</td>
+</tr>
+<tr class='MAJOR'>
+<td>MAJOR</td>
+<td>Code Smell</td>
+<td>Long method detected -> getUsers</td>
+</tr>
+<tr class='MINOR'>
+<td>MINOR</td>
+<td>Code Smell</td>
+<td>Too many parameters in method -> authenticate</td>
+</tr>
+<tr class='MINOR'>
+<td>MINOR</td>
+<td>Dead Code</td>
+<td>Unused variable -> unusedCounter in method -> getUsers</td>
+</tr>
+<tr class='CRITICAL'>
+<td>CRITICAL</td>
+<td>Security</td>
+<td>Hardcoded password -> password</td>
+</tr>
+<tr class='CRITICAL'>
+<td>CRITICAL</td>
+<td>Security</td>
+<td>Possible SQL Injection -> "SELECT * FROM users WHERE role=" + roleId</td>
+</tr>
+<tr class='MAJOR'>
+<td>MAJOR</td>
+<td>Security</td>
+<td>System.exit() usage detected</td>
+</tr>
+<tr class='MINOR'>
+<td>MINOR</td>
+<td>Code Smell</td>
+<td>Too many parameters in method -> testMethod</td>
+</tr>
+<tr class='MINOR'>
+<td>MINOR</td>
+<td>Dead Code</td>
+<td>Unused variable -> query in method -> testMethod</td>
+</tr>
+<tr class='MINOR'>
+<td>MINOR</td>
+<td>Dead Code</td>
+<td>Unused variable -> unusedVar in method -> testMethod</td>
+</tr>
+<tr class='CRITICAL'>
+<td>CRITICAL</td>
+<td>Security</td>
+<td>Hardcoded password -> password</td>
+</tr>
+<tr class='CRITICAL'>
+<td>CRITICAL</td>
+<td>Security</td>
+<td>Possible SQL Injection -> "SELECT * FROM users WHERE id=" + a</td>
+</tr>
+<tr class='MAJOR'>
+<td>MAJOR</td>
+<td>Security</td>
+<td>System.exit() usage detected</td>
+</tr>
+</table>
+</body>
+</html>

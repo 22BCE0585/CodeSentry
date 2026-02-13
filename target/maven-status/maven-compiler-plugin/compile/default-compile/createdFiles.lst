@@ -1,0 +1,12 @@
+com\staticanalysis\model\Defect.class
+com\staticanalysis\model\DefectCollector.class
+com\staticanalysis\parser\FileScanner.class
+com\staticanalysis\Main.class
+com\staticanalysis\metrics\ComplexityAnalyzer.class
+com\staticanalysis\analyzer\SecurityAnalyzer.class
+com\staticanalysis\analyzer\SmellDetector.class
+com\staticanalysis\report\ReportGenerator.class
+com\staticanalysis\analyzer\ClassAnalyzer.class
+com\staticanalysis\analyzer\DeadCodeDetector.class
+com\staticanalysis\parser\CodeParser.class
+com\staticanalysis\analyzer\MethodAnalyzer.class

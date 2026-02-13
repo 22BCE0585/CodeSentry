@@ -1,0 +1,12 @@
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\analyzer\ClassAnalyzer.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\analyzer\DeadCodeDetector.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\analyzer\MethodAnalyzer.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\analyzer\SecurityAnalyzer.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\analyzer\SmellDetector.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\Main.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\metrics\ComplexityAnalyzer.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\model\Defect.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\model\DefectCollector.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\parser\CodeParser.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\parser\FileScanner.java
+C:\Gopi\Project\com\StaticCodeAnalyzer\src\main\java\com\staticanalysis\report\ReportGenerator.java
